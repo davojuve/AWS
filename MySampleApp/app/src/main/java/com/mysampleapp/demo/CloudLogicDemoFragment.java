@@ -226,7 +226,7 @@ public class CloudLogicDemoFragment extends DemoFragmentBase implements View.OnC
                 identityManager.getCurrentIdentityProvider();
 
         final UserInfo userInfo = new UserInfo(
-                                                "555",
+                                                "222",
                                                 identityProvider.getUserFirstName(),
                                                 identityProvider.getUserId(),
                                                 identityProvider.getUserLastName(),

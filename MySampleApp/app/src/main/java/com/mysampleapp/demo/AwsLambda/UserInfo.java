@@ -13,7 +13,7 @@ public class UserInfo {
 
     public UserInfo() {}
 
-    public UserInfo(String userId, String firstName, String externalId, String lastName, String provider, String token) {
+    public UserInfo(String userId, String firstName, String externalId, String lastName,  String provider, String token) {
         this.userId = userId;
         this.firstName = firstName;
         this.externalId = externalId;

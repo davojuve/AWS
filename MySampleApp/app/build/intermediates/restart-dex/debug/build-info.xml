@@ -4,48 +4,40 @@
     api-level="21"
     density="xxxhdpi"
     format="7"
-    timestamp="357899865205435"
-    token="-3601931153590104969"
-    verifier="COMPATIBLE" >
+    timestamp="368078446474835"
+    token="-3601931153590104969" >
 
     <task
         name="javac"
-        duration="409" />
+        duration="488" />
     <task
         name="instant-run-dex"
-        duration="685" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="52" />
+        duration="39" />
     <task
         name="verifier"
-        duration="3" />
+        duration="11" />
 
     <artifact
-        location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
 
-    <build timestamp="356269034812144" >
+    <build timestamp="366480519313560" >
         <artifact
             location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="357094508091908" >
-        <artifact
-            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="357816569907236" >
+    <build timestamp="366732253225022" >
         <artifact
             location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="357899865205435"
-        verifier="COMPATIBLE" >
+    <build timestamp="368078446474835" >
         <artifact
-            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
