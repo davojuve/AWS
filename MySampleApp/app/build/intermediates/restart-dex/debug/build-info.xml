@@ -4,40 +4,30 @@
     api-level="21"
     density="xxxhdpi"
     format="7"
-    timestamp="368078446474835"
-    token="-3601931153590104969" >
+    timestamp="2615862383972946"
+    token="-6093466948798854700" >
 
     <task
         name="javac"
-        duration="488" />
+        duration="4758" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="1133" />
     <task
         name="verifier"
-        duration="11" />
+        duration="556" />
 
     <artifact
-        location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
+        location="C:\javaProject\DemoAWS\MySampleApp\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="366480519313560" >
+    <build timestamp="2615862383972946" >
         <artifact
-            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\outputs\apk\app-debug.apk"
+            location="C:\javaProject\DemoAWS\MySampleApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="366732253225022" >
-        <artifact
-            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="368078446474835" >
-        <artifact
-            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

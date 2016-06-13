@@ -1,3 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-mobileanalytics\2.2.11\293e98aaec181ec364c00db53b6015d322a65c8f\aws-android-sdk-mobileanalytics-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="293e98aaec181ec364c00db53b6015d322a65c8f">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-mobileanalytics-2.2.11_938b0f98bb016a41f0b62c1fa19a74d27fac9c54\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-ddb\2.2.11\41a827cf332869dd2c43a844686a1895e4900f46\aws-android-sdk-ddb-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="41a827cf332869dd2c43a844686a1895e4900f46">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-ddb-2.2.11_e8a65ddc5e9de77fbe34cfea60a78c1e27690fa0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-s3\2.2.11\4aa510782be09934b13b0259ac3246a4be164c27\aws-android-sdk-s3-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4aa510782be09934b13b0259ac3246a4be164c27">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-s3-2.2.11_a1d5d5a838c00b506367eeede1c781a2bb3133c2\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.6.0_9a4a997a9678dc676f59352174021b8023272c42\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="53dbfbe8f12de17a5566438860716b29a6e9f2c7">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b0f97a3e96c5d06c70cd1e34b5dc96b340381852\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-ddb-mapper\2.2.11\e37659b0f500bbf6c8147cf3abe07d8283bdd1cc\aws-android-sdk-ddb-mapper-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e37659b0f500bbf6c8147cf3abe07d8283bdd1cc">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-ddb-mapper-2.2.11_bb2ce0f31936f49f3ee562aeeb7719b9d76c940e\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_b20a98aad6980f745b6109b8ef9fb00480255bee\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-core\2.2.11\26f86360a57bc6f750e8ee1628c45e1eda4abe68\aws-android-sdk-core-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="26f86360a57bc6f750e8ee1628c45e1eda4abe68">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-core-2.2.11_3c42175223a9c334689d22ec82e7f815220bf14c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-cognito\2.2.11\a0a93d1bd95a14a80a86bf197eb8db507031e832\aws-android-sdk-cognito-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a0a93d1bd95a14a80a86bf197eb8db507031e832">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-cognito-2.2.11_83d788d117a28cf15ed07bba85a1b3fdb8656e56\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fc18a0fdc80391aaf9a93e629f1a6f03cf6a9cf4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_e839d41482e9a9e144bfd45e0bf79206fa745e1f\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_a413688eaf0ba5bf9ddaec7bb97dd2f140c393ec\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_4440fb99d07ded954a4b120390ab1da73462f535\classes.dex" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Davit Petrosyan\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-lambda\2.2.11\adb1a48635725403e60aa5eec3e6675df6f1542d\aws-android-sdk-lambda-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="adb1a48635725403e60aa5eec3e6675df6f1542d">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-lambda-2.2.11_d9fcecf1ca40df8ceb1104e45bcbad9cf2996c37\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_932570867353733f85870feb903d4feb50611b55\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_9dc7d4a88e3c0e14840908e4dacf3d68b4ad8587\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2cd2a9cc0d75ac7b0a554f328d9fbbb6cec6e1fa">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_93aff3c432d6ad3027e3d3a9f8b88c25687edb10\classes.dex" />
+    </item>
+    <item
+        jar="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\javaProject\DemoAWS\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_9c4655607c353b18c7cd99ca0501452495ccafea\classes.dex" />
+    </item>
+
+</items>

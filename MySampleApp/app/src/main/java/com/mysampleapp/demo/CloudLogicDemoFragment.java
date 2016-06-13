@@ -14,7 +14,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.amazonaws.mobile.AWSMobileClient;
 import com.amazonaws.mobile.user.IdentityManager;
 import com.amazonaws.mobile.user.IdentityProvider;
@@ -25,7 +24,6 @@ import com.amazonaws.services.lambda.model.InvokeResult;
 import com.mysampleapp.R;
 import com.mysampleapp.demo.AwsLambda.LambdaFunctionsHolderInterface;
 import com.mysampleapp.demo.AwsLambda.UserInfo;
-
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -226,7 +224,7 @@ public class CloudLogicDemoFragment extends DemoFragmentBase implements View.OnC
                 identityManager.getCurrentIdentityProvider();
 
         final UserInfo userInfo = new UserInfo(
-                                                "222",
+                                                "118",
                                                 identityProvider.getUserFirstName(),
                                                 identityProvider.getUserId(),
                                                 identityProvider.getUserLastName(),

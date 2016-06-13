@@ -1,54 +1,54 @@
 [
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_sendgraph.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_sendgraph.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_sendgraph.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_sendgraph.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_money.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_money.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\icon_home.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_home.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\app_analytics.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\app_analytics.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_facebook_pressed.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_facebook_pressed.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\splash_icon.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\splash_icon.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_money.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_money.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\user_identity.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user_identity.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\splash_icon.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\splash_icon.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\user.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\database.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\database.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_facebook.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_facebook.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\user_identity.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user_identity.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\database.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\database.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\app_analytics.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\app_analytics.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\cloud_logic.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\cloud_logic.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\user.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\user_data_storage.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user_data_storage.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\cloud_logic.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\cloud_logic.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\icon_home.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_home.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\user_data_storage.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user_data_storage.png"
     },
     {
-        "merged": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_facebook_pressed.png",
-        "source": "C:\\JavaProjects\\DemoProject-aws\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_facebook_pressed.png"
+        "merged": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\button_facebook.png",
+        "source": "C:\\javaProject\\DemoAWS\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\button_facebook.png"
     }
 ]
