@@ -4,32 +4,48 @@
     api-level="21"
     density="xxxhdpi"
     format="7"
-    timestamp="112895124910015"
-    token="-4435069183960706343" >
+    timestamp="357899865205435"
+    token="-3601931153590104969"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="409" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="685" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="52" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
-    <build timestamp="110174119075269" >
+    <artifact
+        location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="356269034812144" >
         <artifact
-            location="C:\Users\DavitWork\Desktop\DemoProject-aws-my-sample-app-android\MySampleApp\app\build\outputs\apk\app-debug.apk"
+            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="110407337222522" >
+    <build timestamp="357094508091908" >
         <artifact
-            location="C:\Users\DavitWork\Desktop\DemoProject-aws-my-sample-app-android\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="112895124910015" />
+    <build timestamp="357816569907236" >
+        <artifact
+            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="357899865205435"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
 
 </instant-run>

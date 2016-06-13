@@ -1,2 +1,0 @@
-CHANGED,C:\Users\DavitWork\Desktop\DemoProject-aws-my-sample-app-android\MySampleApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\amazonaws\mobile\user\signin\FacebookSignInProvider$override.class
-CHANGED,C:\Users\DavitWork\Desktop\DemoProject-aws-my-sample-app-android\MySampleApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

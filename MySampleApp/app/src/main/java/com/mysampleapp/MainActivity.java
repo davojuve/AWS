@@ -22,11 +22,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.amazonaws.mobile.AWSMobileClient;
 import com.amazonaws.mobile.user.IdentityManager;
-import com.amazonaws.mobile.user.IdentityProvider;
 import com.mysampleapp.demo.DemoConfiguration;
 import com.mysampleapp.demo.HomeDemoFragment;
 import com.mysampleapp.navigation.NavigationDrawer;
@@ -150,16 +148,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // pause/resume Mobile Analytics collection
         awsMobileClient.handleOnResume();
 
-        /**
-         * get user's name
-         */
-        final IdentityManager identityManager =
-                AWSMobileClient.defaultMobileClient().getIdentityManager();
-        final IdentityProvider identityProvider =
-                identityManager.getCurrentIdentityProvider();
-        if( identityProvider != null ){
-            Toast.makeText(MainActivity.this, identityProvider.getUserFirstName() +" "+ identityProvider.getUserLastName() , Toast.LENGTH_LONG).show();
-        }
     }
 
     @Override

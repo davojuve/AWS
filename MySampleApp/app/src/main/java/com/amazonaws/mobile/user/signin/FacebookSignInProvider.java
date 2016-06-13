@@ -316,8 +316,8 @@ public class FacebookSignInProvider implements SignInProvider {
         JSONObject json = response.getJSONObject();
         try {
             userId = json.getString("id");
-            userId = json.getString("first_name");
-            userId = json.getString("last_name");
+            userFirstName = json.getString("first_name");
+            userLastName = json.getString("last_name");
             userFullName = json.getString("name");
             userImageUrl = json.getJSONObject("picture")
                     .getJSONObject("data")

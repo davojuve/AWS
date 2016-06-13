@@ -16,13 +16,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.amazonaws.mobile.AWSMobileClient;
+import com.amazonaws.mobile.user.IdentityManager;
+import com.amazonaws.mobile.user.IdentityProvider;
 import com.amazonaws.mobileconnectors.lambdainvoker.LambdaFunctionException;
 import com.amazonaws.services.lambda.model.InvocationType;
 import com.amazonaws.services.lambda.model.InvokeRequest;
 import com.amazonaws.services.lambda.model.InvokeResult;
 import com.mysampleapp.R;
 import com.mysampleapp.demo.AwsLambda.LambdaFunctionsHolderInterface;
-import com.mysampleapp.demo.AwsLambda.NameInfo;
+import com.mysampleapp.demo.AwsLambda.UserInfo;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -84,7 +86,8 @@ public class CloudLogicDemoFragment extends DemoFragmentBase implements View.OnC
         } else if (mInvokeButton == view) {
             Log.d(LOG_TAG, "onClick - INVOKE");
 //            invokeFunction();
-            invokeFunctionEcho();
+            invokeFunctionAddItemToUsers();
+//            invokeFunctionEcho();
         }
     }
 
@@ -167,9 +170,46 @@ public class CloudLogicDemoFragment extends DemoFragmentBase implements View.OnC
         mResultField.setText("");
     }
 
-    private void invokeFunctionEcho() {
-        final String functionName = mFunctionField.getText().toString();
-        final String requestPayload = mRequestField.getText().toString();
+//    private void invokeFunctionEcho() {
+//        final String functionName = mFunctionField.getText().toString();
+//        final String requestPayload = mRequestField.getText().toString();
+//
+//        // Create the Lambda proxy object with default Json data binder.
+//        // You can provide your own data binder by implementing
+//        // LambdaDataBinder
+//        final LambdaFunctionsHolderInterface myInterface =
+//                AWSMobileClient.defaultMobileClient().getCloudFunctionFactory(getContext()).build(LambdaFunctionsHolderInterface.class);
+//
+//        final NameInfo nameInfo = new NameInfo("John", "Doe");
+//
+//        // The Lambda function invocation results in a network call
+//        // Make sure it is not called from the main thread
+//        new AsyncTask<NameInfo, Void, String>() {
+//            @Override
+//            protected String doInBackground(NameInfo... params) {
+//                // invoke "echo" method. In case it fails, it will throw a
+//                // LambdaFunctionException.
+//                try {
+//                    return myInterface.mEcho(params[0]);
+//                } catch (LambdaFunctionException lfe) {
+//                    Log.e(LOG_TAG, "Failed to invoke echo", lfe);
+//                    return null;
+//                }
+//            }
+//
+//            @Override
+//            protected void onPostExecute(String result) {
+//                if (result == null) {
+//                    return;
+//                }
+//
+//                // Do a toast
+//                Toast.makeText(getActivity(), result, Toast.LENGTH_LONG).show();
+//            }
+//        }.execute(nameInfo);
+//    }
+
+    private void invokeFunctionAddItemToUsers() {
 
         // Create the Lambda proxy object with default Json data binder.
         // You can provide your own data binder by implementing
@@ -177,19 +217,34 @@ public class CloudLogicDemoFragment extends DemoFragmentBase implements View.OnC
         final LambdaFunctionsHolderInterface myInterface =
                 AWSMobileClient.defaultMobileClient().getCloudFunctionFactory(getContext()).build(LambdaFunctionsHolderInterface.class);
 
-        final NameInfo nameInfo = new NameInfo("John", "Doe");
+        /**
+         * get user's name
+         */
+        final IdentityManager identityManager =
+                AWSMobileClient.defaultMobileClient().getIdentityManager();
+        final IdentityProvider identityProvider =
+                identityManager.getCurrentIdentityProvider();
+
+        final UserInfo userInfo = new UserInfo(
+                                                "555",
+                                                identityProvider.getUserFirstName(),
+                                                identityProvider.getUserId(),
+                                                identityProvider.getUserLastName(),
+                                                identityProvider.getDisplayName(),
+                                                identityProvider.getToken()
+                                              );
 
         // The Lambda function invocation results in a network call
         // Make sure it is not called from the main thread
-        new AsyncTask<NameInfo, Void, String>() {
+        new AsyncTask<UserInfo, Void, String>() {
             @Override
-            protected String doInBackground(NameInfo... params) {
-                // invoke "echo" method. In case it fails, it will throw a
+            protected String doInBackground(UserInfo... params) {
+                // invoke "addItemToUsers" method. In case it fails, it will throw a
                 // LambdaFunctionException.
                 try {
-                    return myInterface.mEcho(params[0]);
+                    return myInterface.addItemToUsers(params[0]);
                 } catch (LambdaFunctionException lfe) {
-                    Log.e(LOG_TAG, "Failed to invoke echo", lfe);
+                    Log.e(LOG_TAG, "Failed to invoke addItemToUsers", lfe);
                     return null;
                 }
             }
@@ -203,7 +258,7 @@ public class CloudLogicDemoFragment extends DemoFragmentBase implements View.OnC
                 // Do a toast
                 Toast.makeText(getActivity(), result, Toast.LENGTH_LONG).show();
             }
-        }.execute(nameInfo);
+        }.execute(userInfo);
     }
 
     @Override

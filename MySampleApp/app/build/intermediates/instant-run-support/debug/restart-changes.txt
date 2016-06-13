@@ -1,0 +1,1 @@
+CHANGED,C:\JavaProjects\DemoProject-aws\MySampleApp\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\mysampleapp\demo\CloudLogicDemoFragment.class
